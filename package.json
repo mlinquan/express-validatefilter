@@ -1,6 +1,6 @@
 {
   "name": "express-validatefilter",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Pre filter, validate and filter express request datas.And return failure reason or success status.",
   "main": "index.js",
   "scripts": {
