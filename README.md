@@ -11,8 +11,11 @@ Pre filter, validate and filter express request datas.And return failure reason 
 ```js
 var express = require('express');
 var app = express();
+
 var routes_join = require('./routes/join');
+
 global.validateData = require('express-validatefilter');
+
 /* Add some 'phone' rule to global validate */
 validateData.add('*')
 .addRule('phone', {
@@ -29,7 +32,10 @@ validateData.add('*')
     },
     msg: 'Phone number format is error.'
 });
+
 app.use('/join', routes_join);
+//......
+//......
 ```
 
 #### ./routes/join.js
