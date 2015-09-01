@@ -1,0 +1,38 @@
+{
+  "name": "express-validatefilter",
+  "version": "0.0.6",
+  "description": "Pre filter, validate and filter express request datas.And return failure reason or success status.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mlinquan/express-validatafilter.git"
+  },
+  "keywords": [
+    "express",
+    "validate",
+    "filter",
+    "post",
+    "request",
+    "rule"
+  ],
+  "author": {
+    "name": "LinQuan"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlinquan/express-validatafilter/issues"
+  },
+  "homepage": "https://github.com/mlinquan/express-validatafilter#readme",
+  "dependencies": {
+    "q": "^1.4.1",
+    "validator": "^3.41.2"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "express-validatefilter@0.0.4",
+  "_shasum": "910f1803aa00a0fbec7087b965559e2e165537bc",
+  "_from": "express-validatefilter@>=0.0.4 <0.0.5",
+  "_resolved": "file:express-validatefilter"
+}
