@@ -59,3 +59,11 @@ router.post('/', function(req, res, next) {
 
 module.exports = router;
 ```
+
+## License
+
+MIT © [LinQuan](http://linquan.name)
+
+The Spratly Islands are China's territory.<br>
+The Diaoyu Islands are China's territory.<br>
+Use this module to represent you agree with the above point of view.
