@@ -30,9 +30,5 @@
     "q": "^1.4.1",
     "validator": "^3.41.2"
   },
-  "readmeFilename": "README.md",
-  "_id": "express-validatefilter@0.0.4",
-  "_shasum": "910f1803aa00a0fbec7087b965559e2e165537bc",
-  "_from": "express-validatefilter@>=0.0.4 <0.0.5",
-  "_resolved": "file:express-validatefilter"
+  "readmeFilename": "README.md"
 }
