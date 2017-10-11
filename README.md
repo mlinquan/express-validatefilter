@@ -47,7 +47,7 @@ var router = express.Router();
 validateData.add('/join')
 .addRule('phone');
 
-router.post('/', function(req, res, next) {
+router.post('/', validateData.validate, function(req, res, next) {
     if(res.error) {
         console.log(res.error);
     } else {
